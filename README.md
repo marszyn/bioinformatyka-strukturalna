@@ -2,8 +2,8 @@
 Zbiór i ocena jakości i aktualności narzędzi do przewidywania struktury drugorzędowej RNA
 
 Cele:
-- zebranie informacji na temat metod przewidywania struktury drugorzędowej RNA
-- porównanie metod (dostępność, aktualizacje, dostęp, ograniczenia, szybkość działania, format wejścia i wyjścia, strultury)
+- zebranie informacji na temat metod przewidywania struktury drugorzędowej RNA,
+- porównanie metod (dostępność, aktualizacje, dostęp, ograniczenia, szybkość działania, format wejścia i wyjścia, struktury).
 
 <h5>Plan ramowy projektu:</h5>
 <p>
@@ -15,24 +15,39 @@ Cele:
 </p>
 
 <h4>Etap I: Zebrane informacje</h4>
-Metody:
+Metody lokalne:
 - Afold
 - Carnac
 - DotKnot
 - HotKnots
 - IPknot
-- CentroidAlifold
-- CentroidFold
+- Pknots
+- PknotsRG
+- ProbKnot
+- MCFold
+- McQFold
+- MaxExpect
+- RNASampler
+- RNAfold
+
+Metody webowe:
+- CMfinder
+- Alterna
+- Cylofold
 
 <h4>Etap II: Wykonanie wstępu teoretycznego</h4>
-
+- Co to jest RNA?
+- Struktura pierwszorzędowa, drugorzędowa RNA?
 
 <h4>ETAP III: Wykonanie opisu każdej z metod</h4>
-
+Opis każdego z narzędzi zawierający podstawowe informacje.
 
 <h4>Etap IV: Zestawienie</h4>
 Wykonanie tabeli. W wierszach będą znajdować się kolejne metody. W kolumnach natomiast będą opcje.
 
-<h4>Etap V: Porówanie
+<h4>Etap V: Porówanie</h4>
+- Ocena wszystkich narzędzi ze względu na różne parametry, m.in. dostępność, aktualizacje, dostęp, ograniczenia, szybkość działania, format wejścia i wyjścia, struktury.
 
 <h4>Etap VI: Podsumowanie</h4>
+- Zbiorcza ocena wszystkich narzędzi.
+- Jaki jest planowany rozwój danych metod?
