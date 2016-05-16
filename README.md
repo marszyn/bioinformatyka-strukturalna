@@ -51,3 +51,9 @@ Wykonanie tabeli. W wierszach będą znajdować się kolejne metody. W kolumnach
 <h4>Etap VI: Podsumowanie</h4>
 - Zbiorcza ocena wszystkich narzędzi.
 - Jaki jest planowany rozwój danych metod?
+
+
+<h4>Bibliografia:</h4>
+- Lubert Stryer: Biochemia. Warszawa: Państwowe Wydawnictwo Naukowe
+- Matthew G. Seetin: RNA Structure Prediction: Advancing Both Secondary and Tertiary Structure Prediction
+- Matthew G. Seetin and David H. Mathews: TurboKnot: rapid prediction of conserved RNA secondary structures including pseudoknots
