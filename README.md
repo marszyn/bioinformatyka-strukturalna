@@ -8,6 +8,12 @@ Cele:
 <h5>Plan ramowy projektu:</h5>
 <p>
 1. Wstęp teoretyczny na temat struktury drugorzędowej RNA.<br />
+  a) Czym jest RNA?<br/>
+    - z czego zbudowane jest RNA?<br/>
+  b) Typy RNA<br/>
+  c) Struktury RNA:<br/>
+    - pierwszorzędowa - kolejność aminokwasów w sekwencji,<br/>
+    - drugorzędowa - ułożenie w przestrzeni dwuwymiarowej (płaszczyznie), mogą występować pary,<br/>
 2. Opisanie każdej z metod.<br />
 3. Zestawienie opcji.<br />
 4. Porównanie ich i ocena poszczególnych narzędzi.<br />
