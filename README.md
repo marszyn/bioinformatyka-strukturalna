@@ -61,23 +61,34 @@ Wykonanie tabeli. W wierszach będą znajdować się kolejne metody. W kolumnach
 
 <h4>Bibliografia:</h4>
 - Lubert Stryer: Biochemia. Warszawa: Państwowe Wydawnictwo Naukowe
+- Aleksey Y. Ogurtsov, Svetlana A. Shabalina, Alexey S. Kondrashov, Mikhail A. Roytberg: Analysis of internal loops within the RNA      secondary structure in almost quadratic time
 - Matthew G. Seetin: RNA Structure Prediction: Advancing Both Secondary and Tertiary Structure Prediction
 - Matthew G. Seetin and David H. Mathews: TurboKnot: rapid prediction of conserved RNA secondary structures including pseudoknots
 
 
 
+<br/><br/><br/><br/>
 <h3>Wstęp teoretyczny</h3>
 <h4>1. RNA - definicja</h4>
 <p>RNA, zwane inaczej kwasem rybonukleinowym, to długa liniowa makrocząsteczka polinukleotydowa.  Nukleotydy połączone są wiązaniami fosfodiestrowymi 3’→ 5’. Każdy nukleotyd zbudowany jest z jednostki cukrowej, przynajmniej jednej reszty fosforanowej oraz zasady azotowej. W przypadku RNA resztą cukrową jest ryboza oraz wyróżniamy cztery podstawowe zasady azotowe: adeninę oznaczaną literą A, guaninę (G), cytozynę (C) i uracyl (U). 
 Cząsteczki RNA występują głównie w postaci pojedynczej nici, jednakże łańcuch RNA może się zwinąć i stworzyć strukturę spinki do włosów o budowie dwuniciowej helisy. W tych strukturach adenina tworzy pary z uracylem, a guanina z cytozyną. 
 </p>
 <h4>2. Struktury RNA</h4>
-<p>
 a) pierwszorzędowa<br/>
   Strukturę pierwszorzędową RNA definiujemy jako ciąg nukleotydów ułożonych jeden po drugim.
-<br/>b) drugorzędowa<br/>
-  Strukturę drugorzędową RNA definiujemy jako ułożenie ciągu nukleotydów na płaszczyźnie. Strukturami, jakie możemy zauważyć są m.in. spinki do włosów.
-</p>
+  
+b) drugorzędowa<br/>
+  Strukturę drugorzędową RNA definiujemy jako ułożenie ciągu nukleotydów na płaszczyźnie. Strukturami, jakie możemy zauważyć są m.in. spinki do włosów, wybrzuszenia, pętle wewnętrzne, węzły, pseudowęzły oraz odcinki dwuniciowe.<br/>
+  Spinka do włosów (hairpin) - struktura składająca się z części dwuniciowej oraz pętli zewnętrznej. (rysunek)<br/>
+  Wybrzuszenie (bulge loop) - struktura składająca się z przynajmniej dwóch niesparowanych nukleotydów tylko na jednej z nici.<br/>
+  Pętla wewnętrzna (internal loop) - struktura składająca się z niesparowanych nukleotydów na obu niciach pomiędzy dwoma odcinkami podwójnej helisy. (rysunek)<br/> 
+  Węzeł (junction) - rozgałęzienie przynajmniej trzech odcinków podwójnej helisy. (rysunek)<br/>
+  Pseudowęzeł (pseudoknot) - struktura opierająca się na oddziaływaniach pomiędzy nukleotydami wchodzącymi w skład innej struktury, np. spinki do włosów, a innymi nukleotydami. (rysunek)<br/>
+  
+Często zdarza się, że zasady nie tworzą idealnych par typu Watsona-Cricka. Uracyl może tworzyć parę z guaniną, ponieważ występują wiązania wodorowe pomiędzy N3 uracylu i C6 guaniny oraz C2 uracylu i N1 guaniny. Jednakże para guaniny i cytozyny jest od niej silniejsza. 
+  
+  Najbardziej znanym przykładem struktury drugorzędowej RNA jest tRNA, które wyglądem przypomina liść koniczyny.
+
 <h4>3. Typy RNA</h4>
 a) mRNA
 b) rRNA
@@ -85,12 +96,14 @@ c) tRNA
 d) microRNA
 e) sRNA
 
+
 <h3>Metody</h3>
 <h4>Afold</h4>
-<p></p>
+- złożoność: O(L^3) lub O(M*log^2L), gdzie M<L^2 i oznacza liczbę możliwych par nukleotydów, L oznacza długość łańcucha RNA.
+- dostępność: przez serwer ftp na system Linux i Windows.
 
 <h4>Carnac</h4>
-<p></p>
+
 
 <h4>CentroidAlifold</h4>
-<p></p>
+
