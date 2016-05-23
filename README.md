@@ -106,3 +106,11 @@ e) sRNA
 
 <h4>CentroidAlifold</h4>
 
+<h4>ContraFold</h4>
+- strona internetowa: http://contra.stanford.edu/contrafold/
+- zaimplementowany w C++,
+-	metoda oparta warunkowych modelach logarytmiczno-liniowych, probabilistycznych modelach uogólniających stochastyczną gramatykę bezkontekstową (SCFGs) poprzez funkcje wyższych punktacji,
+-	metoda osiąga wysoką dokładność predykcji pojedynczego ciągu,
+-	metoda łączy techniki probabilistyczne z fizycznymi. Jest to odpowiedź na lukę pomiędzy metodami probabilistycznymi a termodynamicznymi udowadniając, że procedury uczenia statystycznego mogą stanowić skuteczną alternatywę dla empirycznego pomiaru parametrów termodynamicznych do przewidywania struktury drugorzędowej RNA,
+-	wyniki można przesłać sobie bezpośrednio na wcześniej podanego maila lub otworzyć je w przeglądarce od razu po wykonaniu,
+-	 mamy dwie opcje do wyboru pod względem parowania się nukleotydów. Możemy wybrać opcję domyślną typu Watsona-Cricka lub dopuścić parowanie się wszystkich możliwych. 
