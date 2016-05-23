@@ -30,7 +30,6 @@ Metody lokalne:
 - Pknots
 - PknotsRG
 - ProbKnot
-- MCFold
 - McQFold
 - MaxExpect
 - RNASampler
@@ -94,7 +93,7 @@ a) mRNA
 b) rRNA
 c) tRNA
 d) microRNA
-e) sRNA
+e) sRNA            
 
 
 <h3>Metody</h3>
