@@ -32,4 +32,3 @@ Wykonanie tabeli. W wierszach będą znajdować się kolejne metody. W kolumnach
 
 <h4>Etap V: Podsumowanie</h4>
 
-<h4>Bibliografia:</h4>
