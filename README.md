@@ -18,23 +18,7 @@ Cele:
 4. Podsumowanie i ocena ogólna.<br />
 </p>
 
-<h4>Etap I: Zebrane informacje</h4>
-Metody lokalne:
-- Afold
-- Carnac
-- DotKnot
-- HotKnots
-- IPknot
-- Pknots
-- PknotsRG
-- ProbKnot
-- MaxExpect
-- RNASampler
-- RNAfold
-
-- CMfinder
-- Alterna
-- Cylofold
+<h4>Etap I: Zebranie informacji</h4>
 
 <h4>Etap II: Wykonanie wstępu teoretycznego</h4>
 - Co to jest RNA?
@@ -47,10 +31,5 @@ Opis każdego z narzędzi zawierający podstawowe informacje.
 Wykonanie tabeli. W wierszach będą znajdować się kolejne metody. W kolumnach natomiast będą opcje.
 
 <h4>Etap V: Podsumowanie</h4>
-- Zbiorcza ocena wszystkich narzędzi.
 
 <h4>Bibliografia:</h4>
-- Lubert Stryer: Biochemia. Warszawa: Państwowe Wydawnictwo Naukowe
-- Aleksey Y. Ogurtsov, Svetlana A. Shabalina, Alexey S. Kondrashov, Mikhail A. Roytberg: Analysis of internal loops within the RNA      secondary structure in almost quadratic time
-- Matthew G. Seetin: RNA Structure Prediction: Advancing Both Secondary and Tertiary Structure Prediction
-- Matthew G. Seetin and David H. Mathews: TurboKnot: rapid prediction of conserved RNA secondary structures including pseudoknots
